@@ -1,0 +1,44 @@
+/* OrderHistoryPage.css */
+
+.order-history-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .order {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .order-details {
+    margin-bottom: 10px;
+  }
+  
+  .order-item {
+    margin-bottom: 10px;
+  }
+  
+  .item-rating {
+    margin-bottom: 10px;
+  }
+  
+  .item-review {
+    margin-bottom: 10px;
+  }
+  
+  .submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+  
