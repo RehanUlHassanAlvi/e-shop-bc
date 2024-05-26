@@ -7,47 +7,20 @@
   display: flex;
   justify-content: space-between; /* Align items to the start and end of the container */
   align-items: center; /* Center items vertically */
+  padding: 10px 20px;
 }
 
-.navbar a {
+.nav-link {
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Cart section */
-.cart-section {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 10px;
-  margin-top: 20px;
-}
-
-.cart-item {
-  margin-bottom: 10px;
-}
-
-.cart-item-name {
   font-weight: bold;
 }
 
-.buy-btn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.buy-btn:hover {
-  background-color: #45a049;
+.nav-link:hover {
+  background-color: #ddd;
+  color: black;
 }
 
 .logout-btn {
@@ -62,4 +35,75 @@
 .logout-btn:hover {
   background-color: #d32f2f;
 }
-  
+
+/* Welcome container */
+.welcome-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+/* Cart section */
+.cart-section {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.cart-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.cart-item-name {
+  font-weight: bold;
+  flex: 1;
+}
+
+.remove-btn {
+  background-color: #f44336;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.remove-btn:hover {
+  background-color: #d32f2f;
+}
+
+.buy-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buy-btn:hover {
+  background-color: #45a049;
+}
